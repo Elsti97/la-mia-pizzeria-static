@@ -1,8 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+<div class="container">
+    <h1 class="text-center">Pizzeria</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Descrizione</th>
+                <th>Foto</th>
+                <th>Prezzo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Margherita</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rutrum magna quis lorem pellentesque, ut mattis odio interdum. Suspendisse vel bibendum eros, non ullamcorper odio</td>
+                <td><img src="https://picsum.photos/id/10/200/150"></td>
+                <td>5 €</td>
+            </tr>
+
+            <tr>
+                <td class="title">Diavola</td>
+                <td class="description">Morbi dapibus, purus vel consequat pretium, orci ante aliquet urna, id pretium dolor orci et nunc. Nam imperdiet mi ligula, in lobortis magna iaculis ac.</td>
+                <td class="image"><img src="https://picsum.photos/id/20/200/150"></td>
+                <td>6 €</td>
+            </tr>
+
+            <tr>
+                <td>4 Formaggi</td>
+                <td>Aliquam quis auctor urna. Donec ut eros quam. Morbi faucibus leo eu magna consectetur, ac rhoncus lectus congue. Integer hendrerit magna eu felis tincidunt, non interdum orci faucibus.</td>
+                <td><img src="https://picsum.photos/id/30/200/150"></td>
+                <td>7 €</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
+
